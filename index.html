@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Frontend Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: royalblue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: royalblue;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .contact a:hover {
+      background: navy;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Abdulmalik 👋</h1>
+    <p>Frontend Developer | HTML • CSS • JavaScript</p>
+  </header>
+
+  <section>
+    <h2>💻 My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>📱 Phone Repair Website</h3>
+        <p>A responsive service website for booking phone repairs.</p>
+      </div>
+      <div class="project">
+        <h3>🍔 Restaurant Landing Page</h3>
+        <p>A modern landing page with menu and order section.</p>
+      </div>
+      <div class="project">
+        <h3>🎬 Movie Search App</h3>
+        <p>Search and display movies using JavaScript API integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>📩 Contact Me</h2>
+    <p>Let’s work together!</p>
+    <a href="mailto:malekabd929@gmail.com">Email Me</a>
+    <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a>
+  </section>
+</body>
+</html>
