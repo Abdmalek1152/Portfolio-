@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABTECH Phone Repair</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ABTECH</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to ABTECH Phone Repair</h1>
+    <p>Your trusted solution for all smartphone and gadget repairs.</p>
+    <button onclick="alert('Thanks for choosing ABTECH!')">Get Started</button>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Screen Repair</h3>
+        <p>We replace broken screens quickly and affordably.</p>
+      </div>
+      <div class="service-card">
+        <h3>Battery Replacement</h3>
+        <p>Fix poor battery life with genuine replacements.</p>
+      </div>
+      <div class="service-card">
+        <h3>Software Issues</h3>
+        <p>We troubleshoot and solve software problems.</p>
+      </div>
+      <div class="service-card">
+        <h3>Hardware</h3>
+        <p>We deal with all kind of hardware way problems</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Book an Appointment</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      <textarea id="message" placeholder="Describe your issue..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 ABTECH Phone Repair | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
